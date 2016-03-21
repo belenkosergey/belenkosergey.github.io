@@ -1,0 +1,7 @@
+<div>
+	<div ng-repeat="item in items">
+		<span>{{item.title}}</span>
+		<input ng-show="item.isShow" ng-model="item.title">
+	</div>
+<div><span>Watchers:&nbsp;<span ng-bind="watchCount"></span></span></div>
+</div>
